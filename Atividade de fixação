@@ -1,0 +1,45 @@
+let pesquisa = prompt("Qual atendimento você quer?")
+
+if (pesquisa.toLowerCase() === 'odontologia'){
+  console.log("A consulta com o Odontologista custa R$190,00")
+}
+else if (pesquisa.toLowerCase() === 'cardiologia'){
+  console.log("A consulta com o Cardiologista custa R$160,00")
+}
+else if (pesquisa.toLowerCase() === 'pediatria'){
+  console.log("A consulta com o Pediatra custa R$220,00")
+}
+else if (pesquisa.toLowerCase() === 'dermatologia'){
+  console.log("A consulta com o Dermatologista custa R$100,00")
+}
+else if (pesquisa.toLowerCase() === 'neurologia'){
+  console.log("A consulta com o Neurologista custa R$125,00")
+}
+else if (pesquisa.toLowerCase() === 'urologia'){
+  console.log("A consulta com o Urologista custa R$175,00")
+}
+else if (pesquisa.toLowerCase() === 'ortopedia'){
+  console.log("A consulta com o otorpedista custa R$300,00")
+}
+else if (pesquisa.toLowerCase() === 'nutricionismo'){
+  console.log("A consulta com o Nutricionista custa R$200,00")
+}
+else
+  console.log("isso não existe")
+
+
+let pesquisa = prompt ("Qual genero de Serie voce quer?").toLowerCase()
+
+switch (pesquisa){
+  case "drama":
+    console.log("Você Pode assistir Heartstopper")
+    break;
+  case "fantasia":
+    console.log("Você Pode assistir The Witcher")
+    break;
+  case "romance":
+    console.log("Você Pode assistir Rainha Charlotte: Uma História Bridgerton")
+    break;
+  default:
+    console.log("este genero não existe")
+}
